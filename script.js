@@ -8,8 +8,8 @@ menubar.onclick = () =>{
 }
 
 const sr = ScrollReveal ({
-    distance : '45px',
-    duration : 27000,
+    distance : auto,
+    duration : 2700,
     reset : true,
   })
 
@@ -25,74 +25,3 @@ const sr = ScrollReveal ({
   sr.reveal('.menu-food-text',{ delay:150, origin:'bottom' })
   sr.reveal('.food-main-content',{ delay:150, origin:'bottom' })
   sr.reveal('.footer-logo',{ delay:150, origin:'bottom' })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// let menubar = document.querySelector('#menubar');
-// let mynav = document.querySelector('.navbar');
-
-
-
-// menubar.onclick = () =>{
-//     menubar.classList.toggle('fa-times')
-//     mynav.classList.toggle('active')
-// }
-
-// document.querySelector('#loginbtn').onclick = () =>{
-//     document.querySelector('.login-form').classList.toggle('active');
-//   }
-//   document.querySelector('#closeloginform').onclick = () =>{
-//     document.querySelector('.login-form').classList.remove('active');
-//   }
