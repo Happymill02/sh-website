@@ -61,6 +61,7 @@ html,body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: auto;
 }
 .main-home{
     display: flex;
