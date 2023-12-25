@@ -8,7 +8,7 @@ menubar.onclick = () =>{
 }
 
 const sr = ScrollReveal ({
-    distance : '90px',
+    distance : '200px',
     duration : 2700,
     reset : true,
   })
