@@ -8,7 +8,7 @@ menubar.onclick = () =>{
 }
 
 const sr = ScrollReveal ({
-    distance : auto,
+    distance : '45px',
     duration : 2700,
     reset : true,
   })
@@ -20,7 +20,7 @@ const sr = ScrollReveal ({
 
   sr.reveal('.quality-content',{ delay:150, origin:'left' })
   sr.reveal('.qulity-image',{ delay:150, origin:'right' })
-  sr.reveal('.gallery-image',{ delay:150, origin:'top' })
+  sr.reveal('.gallery-image',{ delay:150, origin:'left' })
   sr.reveal('.menu-food-content',{ delay:150, origin:'top' })
   sr.reveal('.menu-food-text',{ delay:150, origin:'bottom' })
   sr.reveal('.food-main-content',{ delay:150, origin:'bottom' })
