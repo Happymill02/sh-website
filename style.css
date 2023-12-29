@@ -11,7 +11,6 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     transition: 0.5s;
-    text-transform: capitalize;
 }
 html{
     font-size: 65%;
