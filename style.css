@@ -281,6 +281,12 @@ html,body{
     html,body{
         overflow-x: clip;
     }
+    .gallery-image{
+        -webkit-transition: none !important;
+        -moz-transition: none !important;
+        -o-transition: none !important;
+        transition: none !important;
+    }
     .header{
         padding: 3rem;
     }
